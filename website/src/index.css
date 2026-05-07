@@ -28,13 +28,15 @@
 /* Dark Theme */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background-color: #212121;
+    --background-color: #414141;
     --text-color: #ffffff;
-    --header-bg: #1a1a1a;
+    /* --header-bg: #1a1a1a; */
     --border-color: #3a3a3a;
   }
 }
 
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }

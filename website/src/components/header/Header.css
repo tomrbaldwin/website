@@ -1,5 +1,5 @@
 .header {
-  background-color: #000000;
+  background-color: #292929;
   color: #ffffff;
   text-transform: uppercase;
   margin: 0;
@@ -8,4 +8,8 @@
 .header-contents {
   max-width: 900px;
   margin: 0 auto;
+}
+
+.header-contents h2 {
+  margin: 0;
 }
