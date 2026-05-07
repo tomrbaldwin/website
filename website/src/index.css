@@ -1,0 +1,40 @@
+/*
+  Sustainable Web Principles:
+  - Use modern CSS for theming to let the browser do the work, reducing JavaScript overhead.
+  - `color-scheme` property hints to the browser about the themes you support,
+    allowing it to adjust UI elements like scrollbars automatically.
+*/
+:root {
+  /* Light Theme (default) */
+  --background-color: #f9f9f9;
+  --text-color: #212121;
+  /* --header-bg: #f9f9f9; */
+  --border-color: #e0e0e0;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--text-color);
+  background-color: var(--background-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Dark Theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #212121;
+    --text-color: #ffffff;
+    --header-bg: #1a1a1a;
+    --border-color: #3a3a3a;
+  }
+}
+
+body {
+  margin: 0;
+}

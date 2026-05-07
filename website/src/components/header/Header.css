@@ -1,0 +1,11 @@
+.header {
+  background-color: #000000;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.header-contents {
+  max-width: 900px;
+  margin: 0 auto;
+}
