@@ -1,6 +1,11 @@
 footer {
-  background-color: #000000;
+  background-color: #292929;
   color: #ffffff;
   text-transform: uppercase;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1rem; */
+  gap: 20px;
 }
