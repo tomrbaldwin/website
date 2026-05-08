@@ -1,6 +1,6 @@
 .section-heading {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-  color: var(--text-color);
-  text-align: center;
+  font-size: 1.5rem;
+  padding: 0 0.5em;
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
 }

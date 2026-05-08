@@ -8,8 +8,9 @@
   /* Light Theme (default) */
   --background-color: #f9f9f9;
   --text-color: #212121;
-  /* --header-bg: #f9f9f9; */
   --border-color: #e0e0e0;
+  --background-color-dark: #272727;
+  --text-color-dark: #ffffff;
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -28,14 +29,16 @@
 /* Dark Theme */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background-color: #414141;
+    --background-color: #343434;
     --text-color: #ffffff;
-    /* --header-bg: #1a1a1a; */
     --border-color: #3a3a3a;
+    --background-color-dark: #f2f2f2;
+    --text-color-dark: #272727;
   }
 }
 
-body {
+body,
+main {
   margin: 0;
   padding: 0;
   box-sizing: border-box;

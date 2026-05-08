@@ -1,5 +1,5 @@
 import React from "react";
-import "./SectionHeading.css";
+import "./section-heading.css";
 
 interface SectionHeadingProps {
   title: string;
