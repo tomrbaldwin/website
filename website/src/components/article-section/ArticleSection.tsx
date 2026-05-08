@@ -1,6 +1,6 @@
-import ArticleCard from "../ArticleCard/ArticleCard";
+import ArticleCard from "../article-card/ArticleCard";
 import "./ArticleSection.css";
-import SectionHeading from "../SectionHeading/SectionHeading";
+import SectionHeading from "../section-heading/SectionHeading";
 
 const articles = [
   {
