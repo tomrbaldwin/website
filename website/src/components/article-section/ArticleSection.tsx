@@ -2,21 +2,29 @@ import ArticleCard from "../article-card/ArticleCard";
 import "./article-section.css";
 import SectionHeading from "../section-heading/SectionHeading";
 import anzacImage from "../../assets/anzac-image.avif";
+import climateImg from "../../assets/climateimg.webp";
+import lemkin from "../../assets/lemkin.webp";
 
 const articles = [
   {
     title: "ANZAC WAR CRIMES AND THE NATIONALIST CONSCIOUSNESS",
     imageUrl: anzacImage,
     date: "25 APRIL, 2026",
-    category: "Web Development",
+    category: "ANZAC DAY 2026",
     link: "/articles/responsive-portfolio",
   },
   {
-    title: "Sustainable Web Design Principles",
-    imageUrl:
-      "https://via.placeholder.com/400x200/008000/FFFFFF?text=Sustainability",
+    title: "AUSTRALIA CAN EASILY FULFILL ITS CLIMATE RESPONSIBILITIES",
+    imageUrl: climateImg,
     date: "20 APRIL, 2026",
-    category: "Sustainability",
+    category: "CLIMATE",
+    link: "/articles/sustainable-web-design",
+  },
+  {
+    title: "A HISTORY OF GENOCIDE",
+    imageUrl: lemkin,
+    date: "20 APRIL, 2026",
+    category: "HUMAN RIGHTS",
     link: "/articles/sustainable-web-design",
   },
 ];

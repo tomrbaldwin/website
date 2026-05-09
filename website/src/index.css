@@ -29,11 +29,11 @@
 /* Dark Theme */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background-color: #343434;
-    --text-color: #ffffff;
+    --background-color: #1a1a1a;
+    --text-color: #e7e7e7;
     --border-color: #3a3a3a;
-    --background-color-dark: #f2f2f2;
-    --text-color-dark: #272727;
+    --background-color-dark: #e7e7e7;
+    --text-color-dark: #1a1a1a;
   }
 }
 

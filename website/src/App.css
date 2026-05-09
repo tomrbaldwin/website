@@ -7,9 +7,8 @@
 .main-content {
   flex-grow: 1;
   width: 100%;
-  max-width: 900px; /* Or your preferred max-width */
+  max-width: 900px;
   margin: 0 auto;
-  padding: 1rem;
 }
 
 .article-grid {

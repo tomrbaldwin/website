@@ -1,9 +1,9 @@
 .header {
-  background-color: #292929;
+  background-color: #121212;
   color: #ffffff;
   text-transform: uppercase;
   margin: 0;
-  padding: 0 1rem;
+  padding: 0;
 }
 
 .header-contents {

@@ -1,4 +1,25 @@
+.article-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .article-card-image {
   width: 100%;
-  height: auto;
+  height: 200px;
+  object-fit: cover;
+}
+
+.article-card-category,
+.article-card-date {
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0;
+  line-height: 1;
+}
+
+.article-card-title {
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.2;
 }

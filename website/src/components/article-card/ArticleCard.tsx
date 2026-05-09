@@ -21,11 +21,9 @@ const ArticleCard: React.FC<ArticleCardProps> = ({
       <article className="article-card">
         <img src={imageUrl} alt={title} className="article-card-image" />
         <div className="article-card-content">
+          <span className="article-card-category">{category}</span>
           <h3 className="article-card-title">{title}</h3>
-          <div className="article-card-meta">
-            <span className="article-card-date">{date}</span>
-            <span className="article-card-category">{category}</span>
-          </div>
+          <span className="article-card-date">{date}</span>
         </div>
       </article>
     </a>
