@@ -7,8 +7,10 @@
 }
 
 .header-contents {
-  max-width: 900px;
   margin: 0 auto;
+  padding: 0.5rem 10px;
+  max-width: 900px;
+  box-sizing: border-box;
 }
 
 .header-contents h2 {

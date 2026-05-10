@@ -7,18 +7,20 @@ import lemkin from "../../assets/lemkin.webp";
 
 const articles = [
   {
-    title: "ANZAC WAR CRIMES AND THE NATIONALIST CONSCIOUSNESS",
+    title: "ANZAC WAR CRIMES AND THE NATIONAL CONSCIOUSNESS",
     imageUrl: anzacImage,
     date: "25 APRIL, 2026",
     category: "ANZAC DAY 2026",
     link: "/articles/responsive-portfolio",
+    alt: "Anzac soldiers marching",
   },
   {
-    title: "AUSTRALIA CAN EASILY FULFILL ITS CLIMATE RESPONSIBILITIES",
+    title: "THE DECLINE OF DEMOCRACY",
     imageUrl: climateImg,
     date: "20 APRIL, 2026",
-    category: "CLIMATE",
+    category: "HUMAN RIGHTS",
     link: "/articles/sustainable-web-design",
+    alt: "bush fire in Australia",
   },
   {
     title: "A HISTORY OF GENOCIDE",
@@ -26,6 +28,7 @@ const articles = [
     date: "20 APRIL, 2026",
     category: "HUMAN RIGHTS",
     link: "/articles/sustainable-web-design",
+    alt: "Raphael Lemkin",
   },
 ];
 

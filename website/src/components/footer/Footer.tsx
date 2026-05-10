@@ -7,9 +7,6 @@ const Footer = () => {
         <p>VIDEO</p>
         <p>ABOUT</p>
       </div>
-      <div className="copyright">
-        <p>&copy;</p>
-      </div>
     </footer>
   );
 };

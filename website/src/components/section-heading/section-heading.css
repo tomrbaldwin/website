@@ -1,7 +1,8 @@
 .section-heading {
-  font-size: 1.4rem;
+  font-size: 1.275rem;
   font-weight: 800;
-  padding: 0 0.5em;
+  padding: 5px 10px;
   background-color: var(--background-color-dark);
   color: var(--text-color-dark);
+  margin: 10px 0;
 }

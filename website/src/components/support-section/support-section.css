@@ -1,9 +1,3 @@
-/* .support-section {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-} */
-
 .support-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -25,4 +19,10 @@
 .support-card-description {
   color: var(--text-color);
   margin: 0;
+}
+
+@media (max-width: 1020px) {
+  .support-grid {
+    padding: 0 10px;
+  }
 }

@@ -7,6 +7,7 @@ interface ArticleCardProps {
   date: string;
   category: string;
   link: string;
+  alt: string;
 }
 
 const ArticleCard: React.FC<ArticleCardProps> = ({
@@ -15,11 +16,12 @@ const ArticleCard: React.FC<ArticleCardProps> = ({
   date,
   category,
   link,
+  alt,
 }) => {
   return (
     <a href={link} className="article-card-link">
       <article className="article-card">
-        <img src={imageUrl} alt={title} className="article-card-image" />
+        <img src={imageUrl} alt={alt} className="article-card-image" />
         <div className="article-card-content">
           <span className="article-card-category">{category}</span>
           <h3 className="article-card-title">{title}</h3>
