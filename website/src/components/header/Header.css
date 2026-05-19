@@ -1,18 +1,17 @@
 .header {
   background-color: #121212;
-  color: #ffffff;
+  color: #f2f2f2;
   text-transform: uppercase;
-  margin: 0;
-  padding: 0;
+  padding: 0 10px;
 }
 
 .header-contents {
   margin: 0 auto;
-  padding: 0.5rem 10px;
-  max-width: 900px;
+  max-width: 400px;
   box-sizing: border-box;
 }
 
 .header-contents h2 {
-  margin: 0;
+  font-size: 1.275rem;
+  font-weight: 800;
 }

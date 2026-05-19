@@ -6,11 +6,11 @@
 */
 :root {
   /* Light Theme (default) */
-  --background-color: #f9f9f9;
-  --text-color: #212121;
-  --border-color: #e0e0e0;
-  --background-color-dark: #272727;
-  --text-color-dark: #ffffff;
+  --background-color: #f3f3f3;
+  --text-color: #292929;
+  /* --border-color: #e0e0e0; */
+  /* --background-color-dark: #272727;
+  --text-color-dark: #ffffff; */
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   /* line-height: 1.5; */
@@ -41,13 +41,29 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#root {
+  flex-grow: 1;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 main {
-  box-sizing: border-box;
-  max-width: 900px;
-  width: 100%;
-  margin: 0 auto;
   flex-grow: 1;
+}
+
+.main-content {
+  max-width: 400px;
+  margin: 0 auto;
   padding: 10px;
+}
+
+.content-center {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0 10px;
 }

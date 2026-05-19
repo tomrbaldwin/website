@@ -20,9 +20,3 @@
   color: var(--text-color);
   margin: 0;
 }
-
-@media (max-width: 1020px) {
-  .support-grid {
-    padding: 0 10px;
-  }
-}

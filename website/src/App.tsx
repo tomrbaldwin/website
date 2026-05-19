@@ -8,12 +8,14 @@ import SupportSection from "./components/support-section/SupportSection";
 function App() {
   return (
     <div className="app-container">
-      <Header />
-      <main className="main-content">
-        <ArticleSection />
-        <SupportSection />
+      <Header /> {/* Assumes Header has an inner container for content */}
+      <main>
+        <div className="main-content">
+          <ArticleSection />
+          <SupportSection />
+        </div>
       </main>
-      <Footer />
+      <Footer /> {/* Assumes Footer has an inner container for content */}
     </div>
   );
 }

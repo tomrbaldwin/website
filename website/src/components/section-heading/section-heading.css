@@ -2,7 +2,7 @@
   font-size: 1.275rem;
   font-weight: 800;
   padding: 5px 10px;
-  background-color: var(--background-color-dark);
-  color: var(--text-color-dark);
+  background-color: var(--text-color);
+  color: var(--background-color);
   margin: 10px 0;
 }
