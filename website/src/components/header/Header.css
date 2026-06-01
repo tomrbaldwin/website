@@ -1,17 +1,31 @@
-.header {
-  background-color: #121212;
+header {
+  background-color: #292929;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav {
+  max-width: 600px;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0.5rem 0;
+}
+li {
+  margin-right: 0.5rem;
+}
+
+.header-nav a {
+  text-decoration: none;
   color: #f2f2f2;
   text-transform: uppercase;
-  padding: 0 10px;
-}
-
-.header-contents {
-  margin: 0 auto;
-  max-width: 400px;
-  box-sizing: border-box;
-}
-
-.header-contents h2 {
-  font-size: 1.275rem;
-  font-weight: 800;
+  font-weight: bold;
+  font-size: 0.7rem;
+  display: block;
 }

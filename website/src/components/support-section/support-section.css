@@ -4,19 +4,13 @@
   gap: 20px;
 }
 
-.support-card {
-  color: var(--text-color);
-}
-
 .support-card-title {
   font-weight: 800;
-  color: var(--text-color);
   margin: 0;
   line-height: 1;
   padding: 0 0 8px 0;
 }
 
 .support-card-description {
-  color: var(--text-color);
   margin: 0;
 }

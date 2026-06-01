@@ -3,9 +3,22 @@ import "./Header.css";
 const Header = () => {
   return (
     <header className="header">
-      <div className="header-contents">
-        <h2>Tom Baldwin</h2>
-      </div>
+      <nav className="header-nav">
+        <ul>
+          <li>
+            <a href="#">Tom Baldwin</a>
+          </li>
+          <li>
+            <a href="#">Github</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+          <li>
+            <a href="#">Social</a>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 };
